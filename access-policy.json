@@ -1,0 +1,40 @@
+{ 
+    "Version": "2012-10-17", 
+    "Statement": [ 
+        {
+             "Effect": "Allow",
+             "Action": [ 
+                "logs:CreateLogGroup", 
+                "logs:CreateLogStream", 
+                "logs:PutLogEvents" 
+                ], 
+                "Resource": "arn:aws:logs:*:*:*"
+         }, 
+         {
+             "Effect": "Allow", 
+             "Action": [ 
+                "s3:GetObject"
+                 ], 
+                "Resource": [
+                     "arn:aws:s3:::facebucketthing/*" 
+                      ]
+          }, 
+          { 
+            "Effect": "Allow", 
+            "Action": [
+                 "dynamodb:PutItem" 
+            ], 
+            "Resource": [ 
+                "arn:aws:dynamodb:us-west-1:357005193599:table/guest_collection"
+            ] 
+          }, 
+          { 
+            "Effect": "Allow", 
+            "Action": [ 
+                "rekognition:IndexFaces"
+
+             ],
+            "Resource": "*"
+                 }
+             ]
+        }
