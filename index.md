@@ -1,4 +1,4 @@
-﻿# Facial Recognition Door Lock
+# Facial Recognition Door Lock
 A door lock that only opens if it recognizes the guest. It utilizes Raspberry Pi and Arduino in order to process the data, and it uses the data collected from the camera in order to determine if it should open the lock.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
