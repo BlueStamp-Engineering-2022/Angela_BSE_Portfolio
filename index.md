@@ -13,13 +13,13 @@ My final milestone was adding two things. The first was a special type of guest 
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone")
 
 # Second Milestone
-My second milestone was finishing the software, making it be able to recognize a face, and open and close the door based on if the face it saw was stored in the database. If it doesn't recognize the face, it sends an email of the person's picture to me. It does this by storing the pictures of people I want to let in into AWS's S3, and saving the face ID's of the photos on DynamoDB, and if the face ID of the person captured by the camera matches the face ID of someone that was stored in DynamoDB, then the door unlocks for five seconds. 
+My second milestone was finishing the software, making it be able to recognize a face, and open or close the door based on if the face it saw was stored in the database. If it doesn't recognize the face, the program sends an email of the person's picture to me. My code does this by storing the pictures of people I want to let in into AWS's S3, and saving the face ID's of the photos on DynamoDB, and if the face ID of the person captured by the camera module matches the face ID of someone that was stored in DynamoDB, then the door unlocks for five seconds. The system consists of a button on a breadboard, a Raspberry PI, an Arduino, and a servo. Pressing the button on the breadboard simulates pressing a doorbell, and doing so triggers the face recognition code on the Raspberry PI. Once the Raspberry PI determines if the face is recognized or not, it sends a signal to the Arduino, and based on the signal the Arduino gets, it either activates the servo, openning the door lock, or it stays closed.  
 ![second thing](https://i.imgur.com/OaX4dbc.png)
 [![Second Milestone](https://img.youtube.com/vi/jp6as7RJs-g/maxresdefault.jpg)](https://www.youtube.com/watch?v=jp6as7RJs-g "Second Milestone")
 # First Milestone
   
 
-My first milestone was hooking the servo to the Arduino, and making it move. I wired the Arduino to the Raspberry Pi and wrote a quick program to move the servo. I attached the servo to a gear that would be able to slide the door lock open and close. I have attached the wiring chart below
+My first milestone was hooking the servo to the Arduino, and making it move. I wired the Arduino to the Raspberry PI through a USB and wrote a quick program to move the servo. I attached the servo to a gear that would be able to slide the door lock open and close. I have attached the wiring chart below
 ![Fabulous Bombul](https://user-images.githubusercontent.com/107577606/175604084-d2da880f-609b-4c51-8834-3e7a746f9182.png)
 
 [![First Milestone](https://img.youtube.com/vi/HKv7XRAH6as/maxresdefault.jpg)](https://www.youtube.com/watch?v=HKv7XRAH6as "First Milestone")
