@@ -3,7 +3,7 @@ A door lock that only opens if it recognizes the guest. It utilizes Raspberry Pi
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Angela Qian | Basis Independent Silicon Valley | Computer Science | Incoming Senior
+| Angela | Basis Independent Silicon Valley | Computer Science | Incoming Senior
 
 ![Headstone Image](https://i.imgur.com/yruTXYJ.png)
   
