@@ -1,1 +1,1 @@
-To view the website, navigate to gh-pages on branches, scroll down, click on environments, and click "view deployment"
+To view the website, go to https://bluestamp-engineering-2022.github.io/Angela_BSE_Portfolio/
