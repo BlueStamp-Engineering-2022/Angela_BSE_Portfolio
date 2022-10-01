@@ -1,2 +1,1 @@
-To edit your portfolio, please go over to the gh_pages branch!
-Name: FirstName_BSE_Portfolio
+To view the website, navigate to gh-pages on branches, scroll down, click on environments, and click "view deployment"
