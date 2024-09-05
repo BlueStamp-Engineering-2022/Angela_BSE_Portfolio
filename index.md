@@ -5,7 +5,7 @@ A door lock that only opens if it recognizes the guest. It utilizes Raspberry Pi
 |:--:|:--:|:--:|:--:|
 | Angela | Basis Independent Silicon Valley | Computer Science | Incoming Senior
 
-![Headstone Image](https://i.imgur.com/yruTXYJ.png)
+![Headstone Image](https://imgur.com/CzOFndQ)
   
 # Final Milestone
 My final milestone was adding a special type of guest where the door would still open for them, but it would still send me an email of their picture, and also adding two LED's, one red and one green. When the camera detects a face after taking a picture, the red LED quickly flashes two times. If the face is someone that should be allowed through, the green light flashes for five seconds, and if the face is someone that shouldn't be allowed through, the red light flashes for five seconds. I did the lights by attaching two LED's to the breadboard, attaching wires from the breadboard to the Arduino, and adding a few lines to my Arduino code. I added the special type of guest by adding another condition to my Raspberry PI code, where if the guest is seen, then the door will treat them as someone recognized, but after the door closes, the program will treat them as a stranger and send the email.
